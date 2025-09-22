@@ -129,7 +129,7 @@ Each Kafka message inserts a new row into this table.
 
 ---
 
-## 🐞 Common Issues & Fixes
+## Common Issues & Fixes
 
 * **Password authentication failed** → Ensure you’re using the correct Postgres username (`avnadmin`) and password from Aiven.
 * **Consumer “stuck”** → This usually means no new messages are available. Start the producer first so data begins flowing.
